@@ -1,0 +1,90 @@
+body,
+html {
+  font-family: "Merriwether", sans-serif;
+  font-size: 14px;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.page-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 1rem;
+  position: relative;
+  width: 100%;
+}
+
+.page-container.home {
+  background-size: cover;
+  color: rgba(255, 4, 4, 1);
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 0.8rem;
+  font-size: 20px;
+  background-position: center;
+  align-items: center;
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/gallery/NFAH7CSDGT831539118443194.jpg);
+}
+
+.page-container.progress {
+  background: linear-gradient(to bottom, #202020, #3d3d3d);
+  color: #fafafa;
+}
+
+.page-container.prepared {
+  background: linear-gradient(to bottom, #ddd, #bbb);
+}
+
+.page-container.classes {
+  background: linear-gradient(to bottom, #ddd, #bbb);
+}
+
+.page-container.home h1 {
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.page-container p {
+  max-width: 320px;
+}
+
+.Navigation-buttons {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0.8rem;
+  position: fixed;
+  top: calc(50% - 93.16px);
+  right: 1rem;
+  z-index: 100;
+}
+
+.nav-buttons li {
+  margin-bottom: 0.8rem;
+}
+
+.nav-buttons li:last-child {
+  margin-bottom: 0.8rem;
+}
+
+.nav-buttons li button {
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+.nav-buttons li button:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.nav-buttons li button.active {
+  background: rgba(255, 255, 255, 0.8);
+}
